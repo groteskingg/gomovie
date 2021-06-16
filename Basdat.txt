@@ -1,0 +1,32 @@
+Create Database Gomovie;
+
+CREATE TABLE Users (
+    UID                 Serial              PRIMARY KEY,
+    First_Name    		Varchar(15) 		NOT NULL,
+    Last_Name     		VARCHAR(15) 		NOT NULL,
+    Email	      		VARCHAR(35) 		NOT NULL,
+    Username      		VARCHAR(20) 		NOT NULL,
+    Pass      		VARCHAR(15) 		NOT NULL,
+    Movies_Watched      Numeric(5)          NOT NULL DEFAULT(0);
+
+CREATE TABLE Movie (
+    MovieId 		Serial                  primary key,
+    Movie_Name 		Varchar(100)            not null,
+    Director 		varchar(50)             not null,
+    Casts 			Varchar(255)            not null,
+    Summary 		Varchar(255)            not null,
+    User_Rating 	numeric(2)              not null,
+    Duration 		numeric(3)              not null,
+    Genre 			varchar(20)             not null);
+
+CREATE TABLE List (
+    ListID          Serial          Primary key,
+    UserID          Serial         references Users(UID),
+    MovID           serial          references Movie(MovieID));
+
+CREATE TABLE Trending (
+    TrendMovID      Serial          references Movie(MovieID));
+
+CREATE TABLE Fav (
+    FUserID         Serial         references Users(UID),
+    FMovID          serial          references Movie(MovieID));
