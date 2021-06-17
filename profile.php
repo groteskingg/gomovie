@@ -1,3 +1,6 @@
+<?php
+session_start()
+?>
 <!DOCTYPE html>
 <html lang="en">
 	<head>
@@ -77,15 +80,15 @@
 									<figure class="Profile-Picture"><img src="dummy/user.jpg" alt="#"></figure>
 								</div>
 								<div class="col-md-6">
-									<h2 class="Username">Username</h2>
+									<h2 class="Username"><?php echo $_SESSION['username'] ?></h2>
 									<div class="Information">
 										<p>Insert Bio Here </p>
 									</div>
 									<ul class="Biodata">
-										<li><strong>First Name:</strong> First_Name</li>
-										<li><strong>Last Name:</strong> Last_name</li>
-										<li><strong>Emaik:</strong> Email</li>
-										<li><strong>Movies Watched:</strong> 0</li>
+										<li><strong>First Name: </strong><?php echo $_SESSION['first_name'] ?></li>
+										<li><strong>Last Name: </strong><?php echo $_SESSION['last_name'] ?></li>
+										<li><strong>Email: </strong><?php echo $_SESSION['email'] ?></li>
+										<li><strong>Movies Watched: </strong><?php echo $_SESSION['movies_watched'] ?></li>
 									</ul> 
 								</div>
 							</div> <!-- .row -->

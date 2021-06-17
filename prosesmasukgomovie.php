@@ -1,5 +1,5 @@
 <?php 
-
+session_start();
 include("configgomovie.php"); 
 $username = $_POST['username'];
 $result = pg_query("SELECT * FROM users WHERE username='$username'"); 
@@ -16,7 +16,8 @@ else { // User exists
         $_SESSION['username'] = $user['username'];
         $_SESSION['first_name'] = $user['first_name'];
         $_SESSION['last_name'] = $user['last_name'];
-        $_SESSION['active'] = $user['active'];
+        $_SESSION['email'] = $user['email'];
+        $_SESSION['movies_watched'] = $user['movies_watched'];
         
         // This is how we'll know the user is logged in
         $_SESSION['logged_in'] = true;
