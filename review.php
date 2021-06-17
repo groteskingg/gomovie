@@ -90,42 +90,42 @@
 							<div class="movie">
 								<figure class="movie-poster"><img src="dummy/Cruella2.jpg" alt="#"></figure>
 								<div class="movie-title"><a href="single.php">Cruella</a></div>
-								<p>Sed ut perspiciatis unde omnis iste natus error voluptatem doloremque.</p>
+								<p>A live-action prequel feature film following a young Cruella de Vil.</p>
 							</div>
 							<div class="movie">
-								<figure class="movie-poster"><img src="dummy/Conjuring2.jpg" alt="#"></figure>
+								<figure class="movie-poster"><img src="dummy/Conjuring2.png" alt="#"></figure>
 								<div class="movie-title"><a href="single.php">The Conjuring: The Devil Made Me Do It</a></div>
-								<p>Sed ut perspiciatis unde omnis iste natus error voluptatem doloremque.</p>
+								<p>The Warrens investigate a murder that may be linked to a demonic possession.</p>
 							</div>
 							<div class="movie">
 								<figure class="movie-poster"><img src="dummy/ITH.jpg" alt="#"></figure>
 								<div class="movie-title"><a href="single.php">In The Heights</a></div>
-								<p>Sed ut perspiciatis unde omnis iste natus error voluptatem doloremque.</p>
+								<p>A film version of the Broadway musical in which Usnavi, a sympathetic New York bodega owner.</p>
 							</div>
 							<div class="movie">
 								<figure class="movie-poster"><img src="dummy/Shiva Baby.jpg" alt="#"></figure>
 								<div class="movie-title"><a href="single.php">Shiva Baby</a></div>
-								<p>Sed ut perspiciatis unde omnis iste natus error voluptatem doloremque.</p>
+								<p>At a Jewish funeral service with her parents, a college student runs into her sugar daddy.</p>
 							</div>
 							<div class="movie">
 								<figure class="movie-poster"><img src="dummy/Parasite.jpg" alt="#"></figure>
 								<div class="movie-title"><a href="single.php">Parasite</a></div>
-								<p>Sed ut perspiciatis unde omnis iste natus error voluptatem doloremque.</p>
+								<p>Greed and class discrimination threaten the newly formed symbiotic relationship between the wealthy Park family and the destitute Kim clan.</p>
 							</div>
 							<div class="movie">
 								<figure class="movie-poster"><img src="dummy/Raya.jpg" alt="#"></figure>
 								<div class="movie-title"><a href="single.php">Raya and The Last Dragon</a></div>
-								<p>Sed ut perspiciatis unde omnis iste natus error voluptatem doloremque.</p>
+								<p>In a realm known as Kumandra, a re-imagined Earth inhabited by an ancient civilization, a warrior named Raya is determined to find the last dragon.</p>
 							</div>
 							<div class="movie">
 								<figure class="movie-poster"><img src="dummy/Quiet Place 2.jpg" alt="#"></figure>
 								<div class="movie-title"><a href="single.php">A Quiet Place Part II</a></div>
-								<p>Sed ut perspiciatis unde omnis iste natus error voluptatem doloremque.</p>
+								<p>Following the events at home, the Abbott family now face the terrors of the outside world.</p>
 							</div>
 							<div class="movie">
 								<figure class="movie-poster"><img src="dummy/Sound of Metal.jpg" alt="#"></figure>
 								<div class="movie-title"><a href="single.php">Sound of Metal</a></div>
-								<p>Sed ut perspiciatis unde omnis iste natus error voluptatem doloremque.</p>
+								<p>A heavy-metal drummer's life is thrown into freefall when he begins to lose his hearing.</p>
 							</div>
 						</div> <!-- .movie-list -->
 

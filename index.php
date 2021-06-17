@@ -62,7 +62,7 @@
 							<div class="col-md-9">
 								<div class="slider">
 									<ul class="slides">
-										<li><a href="#"><img src="dummy/Cruella.jpg" alt="Slide 1"></a></li>
+										<li><a href="single.php"><img src="dummy/Cruella.jpg" alt="Slide 1"></a></li>
 										<li><a href="#"><img src="dummy/Conjuring.jpg" alt="Slide 2"></a></li>
 										<li><a href="#"><img src="dummy/In The Heights.jpg" alt="Slide 3"></a></li>
 									</ul>

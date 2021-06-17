@@ -64,29 +64,23 @@
 
 						<div class="row">
 							<div class="col-md-4">
-								<figure><img src="dummy/figure.jpg" alt="figure image"></figure>
+								<figure><img src="dummy/about-us.jpg" alt="figure image"></figure>
 							</div>
 							<div class="col-md-8">
-								<p class="leading">Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium totam.</p>
-								<p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit consectetur adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam.</p>
+								<p class="leading">Tentang Kami</p>
+								<p>Dalam kesibukan aktivitas sehari-hari akan diperlukan hiburan untuk mencegah kejenuhan. Tetapi ada berbagai macam hiburan yang dapat dipilih dan sulit untuk menentukannya karena tergantung preferensi masing-masing individu. Oleh karena itu, kami menyediakan cara dalam memilih hiburan, khususnya hiburan dalam kategori film.</p>
+								<p>Platform website yang kami sebut GoMovie menjadi wadah untuk menawarkan berbagai pilihan film. Bagi orang yang ingin mengetahui film yang sudah pernah ditonton dan daftar film dapat melalui platform ini.<p>
 							</div>
 						</div>
-
-						<div class="row">
-							<div class="col-md-9">
-								<h2 class="section-title">Vision &amp; Misssion</h2>
-								<p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. </p>
-
-								<p>Neque porro quisquam est, qui dolorem ipsum quia dolor sit consectetur adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam dignissimos ducimus qui blanditiis praesentium voluptatum atque.</p>
-							</div>
-						</div> <!-- .row -->
+						
+						<!-- .row -->
 						
 						<h2 class="section-title">Our Team</h2>
 						<div class="row">
 
 							<div class="col-md-3">
 								<div class="team">
-									<figure class="team-image"><img src="dummy/person-4.jpg" alt=""></figure>
+									<figure class="team-image"><img src="dummy/cowo1.jpg" alt=""></figure>
 									<h2 class="team-name">Mochammad Alwin Munayidal Aslam</h2>
 									<small class="team-title">G94190014</small>
 									<div class="social-links">
@@ -99,7 +93,7 @@
 							</div>
 							<div class="col-md-3">
 								<div class="team">
-									<figure class="team-image"><img src="dummy/person-4.jpg" alt=""></figure>
+									<figure class="team-image"><img src="dummy/cowo2.jpg" alt=""></figure>
 									<h2 class="team-name">Panji Adam Gautama</h2>
 									<small class="team-title">G94190034</small>
 									<div class="social-links">
@@ -112,7 +106,7 @@
 							</div>
 							<div class="col-md-3">
 								<div class="team">
-									<figure class="team-image"><img src="dummy/person-4.jpg" alt=""></figure>
+									<figure class="team-image"><img src="dummy/cowo3.jpg" alt=""></figure>
 									<h2 class="team-name">Humam Daffa Muhammad</h2>
 									<small class="team-title">G94190035</small>
 									<div class="social-links">
@@ -125,7 +119,7 @@
 							</div>
 							<div class="col-md-3">
 								<div class="team">
-									<figure class="team-image"><img src="dummy/person-3.jpg" alt=""></figure>
+									<figure class="team-image"><img src="dummy/cewe.jpg" alt=""></figure>
 									<h2 class="team-name">Evelyn Sulaiman</h2>
 									<small class="team-title">G94190051</small>
 									<div class="social-links">

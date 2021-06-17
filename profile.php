@@ -5,7 +5,7 @@
 		<meta http-equiv="X-UA-Compatible" content="IE=edge">
 		<meta name="viewport" content="width=device-width, initial-scale=1.0,maximum-scale=1">
 		
-		<title>Gomovie | Sign In</title>
+		<title>Movie Review | Profile</title>
 
 		<!-- Loading third party fonts -->
 		<link href="http://fonts.googleapis.com/css?family=Roboto:300,400,700|" rel="stylesheet" type="text/css">
@@ -31,7 +31,7 @@
 					<a href="index.php" id="branding">
 						<img src="images/logo.png" alt="" class="logo">
 						<div class="logo-copy">
-							<h1 class="site-title">GoMovie</h1>
+							<h1 class="site-title">GoMovie | Profile</h1>
 							<small class="site-description">Track Movie at one Go</small>
 						</div>
 					</a> <!-- #branding -->
@@ -41,7 +41,7 @@
 						<ul class="menu">
 							<li class="menu-item"><a href="index.php">Home</a></li>
 							<li class="menu-item"><a href="review.php">Movie List</a></li>
-							<li class="menu-item current-menu-item"><a href="signin.php">Sign In</a></li>
+							<li class="menu-item"><a href="signin.php">Sign In</a></li>
 							<li class="menu-item"><a href="about.php">About Us</a></li>
 						</ul> <!-- .menu -->
 
@@ -59,39 +59,44 @@
 					<div class="page">
 						<div class="breadcrumbs">
 							<a href="index.php">Home</a>
-							<span>Sign In</span>
+							<span>Profile</span>
 						</div>
+
+						<div class="content">
 						<?php if(isset($_GET['status'])): ?>
 						<p>
 								<?php
 									if($_GET['status'] == 'sukses'){
-										echo "Signup Successfull";
-									}elseif($_GET['status'] == 'gagal1'){
-										echo "Password Doesn't Match";
+										echo "Login Successfull. Welcome!";
 									}
 								?>
 							</p>
 						<?php endif; ?>
-						<div class="content">
-						<form action="prosesmasukgomovie.php" method="POST"> 
-							<div class="container">
-								<label for="username"><b>Username</b></label>
-								<input type="text" placeholder="Enter Username" name="username" required>
-								<label for="password"><b>Password</b></label>
-								<input type="password" placeholder="Enter Password" name="password" required>
-	   							<button type="submit">Login</button>
-    							<label>
-      							<input type="checkbox" checked="checked" name="remember"> Remember me
-   								</label>
-							</div>
-						</form>
-						
-						<div class="container" style="background-color:#f1f1f1">
-  							<nav>
-    						<button><a type="button" class="nav-link" href="index.php">Cancel</a></button>
-    						<button><a type="button" class="nav-link" href="signup.php">Sign Up</a></button>
-						</nav>
- 						</div>
+							<div class="row">
+								<div class="col-md-6">
+									<figure class="Profile-Picture"><img src="dummy/person-2.jpg" alt="#"></figure>
+								</div>
+								<div class="col-md-6">
+									<h2 class="Username">Cruella</h2>
+									<div class="movie-summary">
+										<p>Before she became known as a criminal with a savage affinity for dog-skin clothing, Cruella de Vil was known as Estella (Emma Stone), an orphaned girl living on the streets of London in the early 1970s, getting by on petty thefts and creative costumes. Her luck turns after she becomes an apprentice to London's most in-demand fashion designer, Baroness von Hellman (Emma Thompson). But just when it seems Estella's dreams are about to come true, she's confronted by her tragic past. </p>
+									</div>
+									<ul class="movie-meta">
+										<li><strong>Rating:</strong> 
+											<div class="star-rating" title="Rated 4.7 out of 5"><span style="width:94%"><strong class="rating">4.7</strong> out of 5</span></div>
+										</li>
+										<li><strong>Length:</strong> 134 min</li>
+										<li><strong>Premiere:</strong> 28 May 2021 (USA)</li>
+										<li><strong>Category:</strong> Comedy, Crime</li>
+									</ul>
+
+									<ul class="starring">
+										<li><strong>Directors:</strong> Craig Gillespie</li>
+										<li><strong>Writers:</strong> Dana Fox (screenplay), Tony McNamara (screenplay)</li>
+										<li><strong>Stars:</strong> Emma Stone, Emma Thompson, Joel Fry </li>
+									</ul>
+								</div>
+							</div> <!-- .row -->
 						</div>
 					</div>
 				</div> <!-- .container -->

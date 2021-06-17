@@ -11,7 +11,7 @@ if ( pg_num_rows($result) == 0 ){ // User doesn't exist
 else { // User exists
     $user = pg_fetch_assoc($result);
 
-    if ( password_verify($_POST['password'], $user['pass']) ) {
+    if ( ($_POST['password'] == $user['pass']) ) {
         
         $_SESSION['username'] = $user['username'];
         $_SESSION['first_name'] = $user['first_name'];
@@ -21,11 +21,11 @@ else { // User exists
         // This is how we'll know the user is logged in
         $_SESSION['logged_in'] = true;
 
-        header("location: profile.php");
+        header("location: profile.php?status=sukses");
     }
     else {
         $_SESSION['message'] = "You have entered wrong password, try again!";
-        header("location: signup.php"); #ini gatau
+        header("location: signin.php?status=gagal1"); #ini gatau
     }
 }
 ?>
