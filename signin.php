@@ -68,6 +68,8 @@
 										echo "Signup Successfull";
 									}elseif($_GET['status'] == 'gagal1'){
 										echo "Password Doesn't Match";
+									}elseif($_GET['status'] == 'gagal2'){
+											echo "Username Doesn't Exist";
 									}
 								?>
 							</p>

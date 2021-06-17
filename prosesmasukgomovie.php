@@ -6,7 +6,7 @@ $result = pg_query("SELECT * FROM users WHERE username='$username'");
 
 if ( pg_num_rows($result) == 0 ){ // User doesn't exist
     $_SESSION['message'] = "User with that username doesn't exist!";
-    header("location: index.php"); #ini jg bingung php nya
+    header("location: signin.php?status=gagal2"); #ini jg bingung php nya
 }
 else { // User exists
     $user = pg_fetch_assoc($result);
