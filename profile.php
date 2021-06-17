@@ -74,27 +74,19 @@
 						<?php endif; ?>
 							<div class="row">
 								<div class="col-md-6">
-									<figure class="Profile-Picture"><img src="dummy/person-2.jpg" alt="#"></figure>
+									<figure class="Profile-Picture"><img src="dummy/user.jpg" alt="#"></figure>
 								</div>
 								<div class="col-md-6">
-									<h2 class="Username">Cruella</h2>
-									<div class="movie-summary">
-										<p>Before she became known as a criminal with a savage affinity for dog-skin clothing, Cruella de Vil was known as Estella (Emma Stone), an orphaned girl living on the streets of London in the early 1970s, getting by on petty thefts and creative costumes. Her luck turns after she becomes an apprentice to London's most in-demand fashion designer, Baroness von Hellman (Emma Thompson). But just when it seems Estella's dreams are about to come true, she's confronted by her tragic past. </p>
+									<h2 class="Username">Username</h2>
+									<div class="Information">
+										<p>Insert Bio Here </p>
 									</div>
-									<ul class="movie-meta">
-										<li><strong>Rating:</strong> 
-											<div class="star-rating" title="Rated 4.7 out of 5"><span style="width:94%"><strong class="rating">4.7</strong> out of 5</span></div>
-										</li>
-										<li><strong>Length:</strong> 134 min</li>
-										<li><strong>Premiere:</strong> 28 May 2021 (USA)</li>
-										<li><strong>Category:</strong> Comedy, Crime</li>
-									</ul>
-
-									<ul class="starring">
-										<li><strong>Directors:</strong> Craig Gillespie</li>
-										<li><strong>Writers:</strong> Dana Fox (screenplay), Tony McNamara (screenplay)</li>
-										<li><strong>Stars:</strong> Emma Stone, Emma Thompson, Joel Fry </li>
-									</ul>
+									<ul class="Biodata">
+										<li><strong>First Name:</strong> First_Name</li>
+										<li><strong>Last Name:</strong> Last_name</li>
+										<li><strong>Emaik:</strong> Email</li>
+										<li><strong>Movies Watched:</strong> 0</li>
+									</ul> 
 								</div>
 							</div> <!-- .row -->
 						</div>
